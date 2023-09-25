@@ -1,1 +1,3 @@
-console.log("hello world");
+class BankAccount {}
+
+module.exports = BankAccount;
