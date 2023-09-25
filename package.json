@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/maxPugh/pingpongpairing/issues"
   },
-  "homepage": "https://github.com/maxPugh/pingpongpairing#readme"
+  "homepage": "https://github.com/maxPugh/pingpongpairing#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
 }
