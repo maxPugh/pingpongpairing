@@ -7,6 +7,7 @@ test("BankAccount should have customerName, accountNumber, balance fields", () =
   expect(typeof bankAccount.accountNumber).toBe("number");
   expect(typeof bankAccount.balance).toBe("number");
 });
+
 test("BankAccount should have methods to set: customerName, accountNumber, and balance", () => {
   const bankAccount = new BankAccount("John Doe", 123456789, 1000);
   bankAccount.setCustomerName("Jane Doe");
